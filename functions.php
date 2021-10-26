@@ -26,11 +26,11 @@
 		echo "<br />";
 		echo "Division 3 / 4 = ". division(3, 4);
 		
-		function operation($a, $b, $operator) {
-			return $a $operator $b;
+		function operation($op) {
+			return $op;
 		}
 		echo "<br />";
-		echo "Operation: ". operation(3, 4, division);
+		echo "Operation: ". operation(sum(3,4));
 	?>
 </body>
 </html>
