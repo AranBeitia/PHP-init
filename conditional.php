@@ -18,29 +18,37 @@
     if($currentMinute < 10) {
       echo "<p>The current minute is less than 10</p>";
     } elseif ($currentMinute > 15){
-      echo "<p>The current minute is grater than 15</p>";
+      echo "<p>The current minute is greater than 15</p>";
     }else {
       echo "<p>Does not meet any condition</p>";
     }
     echo "<p>".$currentMinute."</p>";
 
     $dayOfWeek = date('D');
-    echo $dayOfWeek;
+    echo "<p>Today is ".$dayOfWeek."</p>";
+
     switch($dayOfWeek){
       case 'Mon':
         print 'Monday';
+        break;
       case 'Tue':
         print 'Tuesday';
+        break;
       case 'Wet':
         print 'Wetnesday';
+        break;
       case 'Thu':
         print 'Thursday';
+        break;
       case 'Fri':
         print 'Friday';
+        break;
       case 'Sat':
         print 'Saturday';
+        break;
       case 'Sun':
         print 'Sunday';
+        break;
     }
   ?>
 
